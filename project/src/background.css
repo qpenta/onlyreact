@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+    font-size: 40px;
+}
+
+.box-degrade {
+    width: 100%;
+    height: 100vh;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, blue, orangered, yellow);
+    background-size: 500% 100%;
+    animation: degrade 12s infinite alternate;
+}
+
+@keyframes degrade {
+    0% {
+        background-position-x: 0%
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
