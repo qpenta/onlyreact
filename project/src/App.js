@@ -1,8 +1,11 @@
 function App() {
   return (
-    <h1 class="box-degrade">
-      Hello World
-    </h1>
+    <div className="container">
+      <h1 className="box-degrade">
+        Welcome to the mato
+      </h1>
+      <button className="start-button">Start</button>
+    </div>
   );
 }
 

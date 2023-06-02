@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+
+.box-degrade {
+    font-family: 'Geologica', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Ajuste a altura conforme necessário */
+}
+
+.start-button {
+    position: absolute;
+    font-size: 35px;
+    bottom: 0;
+    margin-bottom: 220px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
