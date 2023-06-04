@@ -1,22 +1,13 @@
-import { Link, Routes, Route } from 'react-router-dom';
-import Home from './Components/Home';
+import React from 'react'
 
 function App() {
   return (
-    <div className="container">
-      <h1 className="box-degrade">
-        Welcome to the mato
-      </h1>
-      <Link to="/home" className="start-button">
-        Start
-      </Link>
-
-      <Routes>
-        <Route path="/home" element={<Home />} />
-      </Routes>
+    <div className='box-degrade'>
+      <h1>Welcome to the mato</h1>
+      <button className='start-button'>Start</button>
     </div>
-  );
+
+  )
 }
 
-export default App;
-
+export default App
