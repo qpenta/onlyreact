@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
@@ -19,8 +19,8 @@ function App() {
             <Container customClass="min-height">
                 <Routes>
                     <Route exact path='/' element={<Home />} />
-                    <Route exact path='/contact' element={<Company />} />
-                    <Route exact path='/company' element={<Contact />} />
+                    <Route exact path='/contact' element={<Contact />} />
+                    <Route exact path='/company' element={<Company />} />
                     <Route exact path='/newproject' element={<NewProject />} />
                     <Route exact path='/newproject' element={<NewProject />} />
                     <Route exact path='/project' element={<Project />} />
